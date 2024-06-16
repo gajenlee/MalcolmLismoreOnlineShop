@@ -1,0 +1,9 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image img {
+    max-width: 20vh;
+}

@@ -1,0 +1,12 @@
+.data-analysis {
+    min-height: 60vh;
+}
+
+.image-gallery-contorl {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contorl h3 {
+    text-align: center;
+}

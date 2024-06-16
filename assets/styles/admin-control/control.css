@@ -1,0 +1,64 @@
+.form-outline {
+    margin: 40px 0 !important;
+}
+
+.form-add {
+    max-width: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container {
+    min-height: 20vh;
+}
+
+.table-show thead  tr th{
+    color: gray;
+    background-color: transparent !important;
+}
+
+.table-show tbody tr th {
+    color: rgb(88, 88, 88) !important;
+    background-color: transparent !important;
+}
+
+#warning-msg, #danger-msg, #success-msg {
+    display: none;
+    align-items: center;
+}
+
+/* dark */
+.modal-content {
+    background-color: #0c0c0c !important;
+    color: rgb(158, 158, 158) !important;
+}
+.modal-content .modal-header, .modal-content .modal-footer {
+    color: white !important;
+    border-color: #1e1e1e !important;
+}
+tr {border-color: #212529 !important;}
+.link-color {color: var(--global-color) !important; cursor: pointer;}
+
+.card.payment i {
+    color: whitesmoke !important;
+}
+
+
+/* light */
+body.active .modal-content {
+    background-color: #fefefe !important;
+    color: rgb(61, 61, 61) !important;
+}
+body.active .modal-content .modal-header, body.active .modal-content .modal-footer {
+    color: rgb(0, 0, 0) !important;
+    border-color: #dddddd  !important;
+}
+body.active tr, body.active tbody {
+    border-color: #c4d9ee !important;
+}
+
+body.active .card.payment i {
+    color: rgb(34, 34, 34) !important;
+}

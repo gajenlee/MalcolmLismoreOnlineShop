@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --background-color-light-theme: rgb(255, 255, 255);
+    --commponent-text-color-light-theme: rgb(0, 0, 0);
+    --background-color-light-theme-nav-bar: rgb(241, 241, 241);
+    --btn-background-color-light: rgb(220, 220, 220);
+    --search-page-light-theme: rgb(255, 255, 255);
+    --search-input-bar-bg-color-light: rgb(207, 207, 207);
+    --search-inner-bar-bg-color-light: rgb(228, 226, 226);
+
+    --service-box-background-color-light: rgb(214, 211, 211);
+}
+
+body.active {
+    background-color: var(--background-color-light-theme) !important;
+    transition: all 1s ease-in-out;
+}
+
+
+body.active #mouse {
+    background-color: rgba(170, 170, 170, 0.342);
+    box-shadow: 0 0 20px #cfcece80, 0 0 60px #cfcece80, 0 0 100px #cfcece80;
+}
+body.active #mouse::before {
+    background-color: rgba(170, 170, 170, 0.342);
+}
+
+
+/* ------------------------------------------- header ---------------------------------------------------------------- */
+
+/* Nav Bar */
+
+
+body.active .menu li a {
+    color: var(--commponent-text-color-light-theme);
+}
+body.active .menu li:hover {
+    background-color: var(--btn-background-color-light);
+    box-shadow: 0 -4px 5px rgba(255, 255, 255, 0.8) inset,
+                0 -4px 8px rgba(255, 255, 255, 0.4) inset,
+                0 -6px 10px rgba(255, 255, 255, 0.3) inset;
+}
+
+body.active .menu li.active  {
+    background-color: var(--btn-background-color-light);
+    box-shadow: 0 -4px 5px rgba(255, 255, 255, 0.8) inset,
+                0 -4px 8px rgba(255, 255, 255, 0.4) inset,
+                0 -6px 10px rgba(255, 255, 255, 0.3) inset;
+}
+
+.nav-bar .nav-item.nav-bar-center.active {
+    background-color: var(--background-color-light-theme-nav-bar);
+}
+
+body.active .menu li.active a, body.active .menu li:hover a {
+    color: #fd4916;
+}
+
+/* Nav btns */
+.btn-theme.active {
+    color: var(--background-color-light-theme);
+}
+
+.btn-theme.active svg {
+    fill: var(--commponent-text-color-light-theme);
+}
+
+body.active .nav-bar.active  {
+    background-color: var(--background-color-light-theme-nav-bar);
+}
+
+body.active .user-icon {
+    background-color: var(--commponent-text-color-light-theme);
+    border-radius: 100%;
+}
+
+body.active .theme-set.btn-theme.search-btn i, body.active #shopping-card i, body.active #menu i {
+    color: rgb(17, 17, 17);
+}
+
+body.active .header-service-list .card {
+    background-color: var(--background-color-light-theme-nav-bar);
+    color: var(--commponent-text-color-light-theme);
+}
+
+body.active .header-service-list .card .card-header svg {
+    fill:rgb(17, 17, 17);
+}
+
+
+
+/* serach */
+body.active .search-bar input {
+    background-color: var(--search-input-bar-bg-color-light);
+    color: var(--commponent-text-color-light-theme);
+}
+body.active .search-bar .comp i {
+    color: var(--commponent-text-color-light-theme);
+}
+body.active .btn.close-btn svg {
+    fill: var(--commponent-text-color-light-theme);
+}
+
+body.active .search-bar .search-inner-page {
+    background-color: var(--search-inner-bar-bg-color-light);
+}
+
+body.active .search-bar .search-inner-page .blur-effect {
+    background-color: #dbdbdb;
+}
+
+body.active .search-text h1 {
+    color: var(--commponent-text-color-light-theme);
+}
+body.active .theme-set.btn.search-btn i {
+    color: rgb(0, 0, 0);
+}
+
+/* Preloader */
+body.active #loder {
+    background-color: rgb(255, 255, 255);
+}
+
+/* hero intro */
+body.active .hero-title h2 {
+    color: var(--commponent-text-color-light-theme);
+}
+
+/* drop down menu */
+body.active .drop-down-menu-items  {
+    background-color: rgba(221, 221, 221, 0.9);
+}
+
+body.active .drop-down-menu-items ul li a {
+    color: rgb(22, 22, 22);
+}
+
+body.active .drop-down-menu-items ul {
+    background-color: rgb(241, 240, 240);
+}
+
+/* silders */
+body.active .container::before {background: rgba(0, 0, 0, .07);}
+
+body.active .container::after  {
+    background: rgba(0, 0, 0, .07);
+}
+
+
+body.active .image-collections {
+    background-color: var(--background-color-light-theme-nav-bar);
+}
+
+
+/* ------------------------------------------- end header ---------------------------------------------------------------- */
+
+/* ------------------------------------------- Service ------------------------------------------------------------------- */
+body.active .service-sample .head-title h1 {color: var(--commponent-text-color-light-theme);}
+body.active .ser-cont.header-service-list .service { background-color: var(--service-box-background-color-light); }
+body.active .header-service-list .service p { color: var(--commponent-text-color-light-theme); }
+body.active .ser-cont.header-service-list .service svg  { fill: var(--commponent-text-color-light-theme); }
+body.active .ser-cont.header-service-list .service h1 { color: var(--commponent-text-color-light-theme); }
+
+body.active  .btn-learn-more {color: black;}
+
+/* ------------------------------------------- End Service ------------------------------------------------------------------- */
+
+/* ------------------------------------------- Project Counter ------------------------------------------------------------------- */
+body.active .project-counter .project .counter-box {
+    background: #f6f6f6;
+}
+body.active .project-counter .project .counter-box.colored {
+    background: var(--global-color);
+}
+
+/* ------------------------------------------- End Project Counter ------------------------------------------------------------------- */
+
+/* -------------------------------------------- Gallery ------------------------------------------------------------------------ */
+body.active .gallery-sample .gallery-title h1{
+    color: var(--commponent-text-color-light-theme);
+}
+
+body.active .gallery-sample .gallery-title p{
+    color: var(--commponent-text-color-light-theme);
+}
+
+body.active .gallery-sample .shop-more-btn a { color: var(--commponent-text-color-light-theme); }
+/* -------------------------------------------- End Gallery --------------------------------------------------------------------- */
+
+/* -------------------------------------------- Footer ------------------------------------------------------------------------ */
+body.active #theme-set {
+    background-color: var(--background-color-light-theme-nav-bar) !important; 
+    color: rgb(32, 32, 32) !important; 
+    margin-top: 20px;
+}
+body.active #theme-set .social {
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+
+body.active #theme-set .copyright {
+    border-top: 1px solid #e0e0e0 !important;
+}
+/* -------------------------------------------- End Footer --------------------------------------------------------------------- */

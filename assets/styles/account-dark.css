@@ -1,0 +1,12 @@
+.login, .register{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.login .container, .register .container {
+    max-width: 77vh;
+}
+
+
+input {color-scheme: dark;}
